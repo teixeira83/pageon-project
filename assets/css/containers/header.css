@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+}
+
+.navbar > img{
+    width: 110px;
+    height: 50px;
+}
+
+.navbar > i {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+}
+
+.navbar > ul{
+    display: flex;
+    list-style-type: none;
+    color: #fff;
+    visibility: hidden;
+}

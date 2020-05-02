@@ -5,36 +5,44 @@
 
 .discover > img {
     margin-top: var(--gap-big);
-    width: 100%;
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .phone {
     width: 100%;
 }
 
-.phone-input > select {
-    width: 30%;
-}
-
-.phone-input > input {
-    margin-left: 1px;
-    width: 63%;
-    -moz-appearance: textfield;
-    text-align: right;
-}
-
 .phone-input {
+    display: flex;
+    justify-content: center;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.select > select {
+    width: 90px;
+}
+
+.input {
+    width: 100%;
+}
+
+.input > input {
+    width: 90%;
+    margin-left: 3px;
+    -moz-appearance: textfield;
+    text-align: right;
 }
 
 .btn-text-me {
     display: flex;
     justify-content: center;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;  
     border: none;
     border-radius: 4px;
     padding-top: var(--gap-smaller);
@@ -43,5 +51,4 @@
     margin-top: var(--gap-smaller);
     width: 90%;
     color: #fff;
-    
 }

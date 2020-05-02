@@ -4,5 +4,7 @@
 @import './elements/base.css';
 
 @import './containers/header.css';
+@import './containers/section.css';
+@import './containers/footer.css';
 
 @import './tools/medias.css';

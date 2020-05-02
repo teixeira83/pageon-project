@@ -34,7 +34,7 @@
     width: 100%;
     list-style-type: none;
     color: black;
-    background-color: #fff;
+    background-color: var(--color-second);
     margin: 0;
     margin-top: var(--gap-smaller);
     padding: 0;
@@ -54,10 +54,11 @@
 .navbar-list-clicked > li:last-child {  
     display: flex;
     justify-content: center;
-    background-color: #fff;
+    background-color: var(--color-second);
 }
 
 .btn-signup {
+    border: none;
     background-color: var(--color-first);
     width: 150px;
     height: 40px;

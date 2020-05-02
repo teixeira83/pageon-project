@@ -1,0 +1,47 @@
+.discover {
+    margin-left: var(--gap-smaller);
+    margin-right: var(--gap-smaller);
+}
+
+.discover > img {
+    margin-top: var(--gap-big);
+    width: 100%;
+}
+
+.phone {
+    width: 100%;
+}
+
+.phone-input > select {
+    width: 30%;
+}
+
+.phone-input > input {
+    margin-left: 1px;
+    width: 63%;
+    -moz-appearance: textfield;
+    text-align: right;
+}
+
+.phone-input {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-text-me {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: none;
+    border-radius: 4px;
+    padding-top: var(--gap-smaller);
+    padding-bottom: var(--gap-smaller);
+    background-color: var(--color-third);
+    margin-top: var(--gap-smaller);
+    width: 90%;
+    color: #fff;
+    
+}

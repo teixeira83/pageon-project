@@ -12,20 +12,25 @@
     <header>
         <nav class="navbar">
             <img src="./assets/imgs/logo.png" alt="logo da pageon">
-            <i class="fas fa-bars"></i>
-            <ul>
+            <a class="icon" onclick="openMenu()">
+                <i class="fas fa-bars fa-2x"></i>
+            </a>
+            <ul class="navbar-list" id="list">
                 <li>About</li>
                 <li>Help/FAQ's</li>
                 <li>Contact</li>
                 <li>Pricing</li>
                 <li>Login</li>
                 <li>
-                    <button>
+                    <button class="btn-signup">
                        Signup 
                     </button>
                 </li>
             </ul>
         </nav>
     </header>
+
+
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>

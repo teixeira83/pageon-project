@@ -1,10 +1,52 @@
-@media (min-width: 600px) {
+@media (min-width: 700px) {
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+    }
+    
     .navbar .icon {
         display: none;
     }
 
+    .navbar img {
+        width: 20%;
+    }
+
     .navbar ul {
         display: flex;
+        justify-content: end;
+        width: 70%;
+        align-items: center;
+    }
+
+    .navbar li {
+        margin-left : var(--gap-smaller);
+        cursor: pointer;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .navbar li a:hover {
+        border-bottom: 2px solid white;
+    }
+
+    .btn-signup {
+        border-radius: 4px;
+        background-color: #fff;
+        color: var(--color-fourth);
+        cursor: pointer;
+    }
+
+    .navbar ul li:last-child {
+        margin-right: var(--gap-smaller);
+    }
+
+    .input > input {
+        width: 96%;
     }
 }
 
@@ -13,4 +55,27 @@
     .discover > img {
         width: 80%;  
     }
-} 
+}
+
+
+@media (min-width: 800px) {
+    .discover {
+        display: flex;
+    }
+    
+    .input > input {
+        width: 92%;
+    }
+
+    .discover > img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        height: 400px;
+    }
+
+    .options {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
